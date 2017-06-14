@@ -20,6 +20,9 @@
     "url": "https://github.com/alex-mironov/ui-lib/issues"
   },
   "homepage": "https://github.com/alex-mironov/ui-lib#readme",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
