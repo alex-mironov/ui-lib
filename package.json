@@ -4,9 +4,9 @@
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "babel lib -d build",
-    "lint": "eslint lib/**; exit 0",
-    "lint:watch": "esw -w lib/**",
+    "build": "babel src -d --out-dir lib",
+    "lint": "eslint src/**; exit 0",
+    "lint:watch": "esw -w src/**",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
